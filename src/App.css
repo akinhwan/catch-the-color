@@ -1,0 +1,61 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  text-align: center;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 20px;
+  text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+  flex-direction: column;
+}
+
+h1 {
+  padding-bottom: 10rem;
+}
+
+button:active {
+  box-shadow: 0px 3px 0px #242424, 0px 4px 0px #242424;
+  top: 2px;
+}
+
+.colorBlock {
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.colorZone {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.colorZone>h2 {
+  margin: auto;
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
